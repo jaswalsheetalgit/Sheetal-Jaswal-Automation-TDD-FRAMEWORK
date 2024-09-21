@@ -1,0 +1,10 @@
+08:04:49 INFO  com.selenium.maven.base.testngListners - onStart
+08:05:02 INFO  com.selenium.maven.tests.homePageTest - Started session
+08:05:03 INFO  com.selenium.maven.base.testngListners - selectSrchCatgri : Test started
+08:05:03 INFO  com.selenium.maven.pages.homePage - Search drop-down displayed
+08:05:03 INFO  com.selenium.maven.pages.homePage - Clicked on search drop down
+08:05:04 INFO  com.selenium.maven.pages.homePage - Selected random value from drop-down
+08:05:07 INFO  com.selenium.maven.tests.homePageTest - Search category got changed successfully.
+08:05:07 INFO  com.selenium.maven.base.testngListners - selectSrchCatgri : Test passed
+08:05:08 INFO  com.selenium.maven.tests.homePageTest - Ending session
+08:05:08 INFO  com.selenium.maven.base.testngListners - onFinish

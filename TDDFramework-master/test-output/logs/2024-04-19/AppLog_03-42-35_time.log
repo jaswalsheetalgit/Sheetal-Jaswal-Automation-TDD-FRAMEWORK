@@ -1,0 +1,27 @@
+03:42:42 INFO  com.selenium.maven.tests.homePageTest - Started session
+03:42:42 INFO  com.selenium.maven.base.testngListners - onStart
+03:42:43 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test started
+03:42:43 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+03:42:43 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test started
+03:42:43 INFO  com.selenium.maven.base.testngListners - verifySearchBar : Test started
+03:42:43 INFO  com.selenium.maven.tests.homePageTest - Soft assert: numbers are not equal
+03:42:43 INFO  com.selenium.maven.tests.homePageTest - 2 3
+03:42:43 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test passed
+03:42:43 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test started
+03:42:43 INFO  com.selenium.maven.tests.homePageTest - Soft assert: numbers are not equal
+03:42:43 INFO  com.selenium.maven.tests.homePageTest - 5 5
+03:42:43 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test passed
+03:42:43 INFO  com.selenium.maven.tests.homePageTest - Verifying title
+03:42:43 INFO  com.selenium.maven.tests.homePageTest - Checking tesNG parameter functionality: hello world!
+03:42:43 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test passed
+03:42:43 INFO  com.selenium.maven.tests.homePageTest - Verifying search bar is present
+03:42:43 INFO  com.selenium.maven.base.testngListners - verifySearchBar : Test passed
+03:42:43 INFO  com.selenium.maven.pages.homePage - Added Search string in searcch box
+03:42:46 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+03:42:46 INFO  com.selenium.maven.tests.homePageTest - Verified search functionality
+03:42:46 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test passed
+03:42:46 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test started
+03:42:46 INFO  com.selenium.maven.pages.homePage - Clicked on first item from search result
+03:42:46 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test passed
+03:42:47 INFO  com.selenium.maven.tests.homePageTest - Ending session
+03:42:48 INFO  com.selenium.maven.base.testngListners - onFinish

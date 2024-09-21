@@ -1,0 +1,8 @@
+07:28:20 INFO  com.selenium.maven.base.testngListners - onStart
+07:28:28 INFO  com.selenium.maven.tests.homePageTest - Started session
+07:28:29 INFO  com.selenium.maven.base.testngListners - selectSrchCatgri : Test started
+07:28:29 INFO  com.selenium.maven.pages.homePage - Search drop-down displayed
+07:28:29 INFO  com.selenium.maven.pages.homePage - Clicked on search drop down
+07:28:33 INFO  com.selenium.maven.base.testngListners - selectSrchCatgri : Test passed
+07:28:33 INFO  com.selenium.maven.tests.homePageTest - Ending session
+07:28:34 INFO  com.selenium.maven.base.testngListners - onFinish

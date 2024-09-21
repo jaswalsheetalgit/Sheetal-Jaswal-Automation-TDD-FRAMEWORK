@@ -1,0 +1,21 @@
+01:46:29 INFO  com.selenium.maven.tests.homePageTest - Started session
+01:46:29 INFO  com.selenium.maven.base.testngListners - onStart
+01:46:30 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+01:46:30 INFO  com.selenium.maven.pages.homePage - Added Search string in search box
+01:46:33 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+01:46:33 INFO  com.selenium.maven.tests.homePageTest - Verified search functionality
+01:46:33 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test passed
+01:46:33 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test started
+01:46:33 INFO  com.selenium.maven.pages.homePage - Clicked on first item from search result
+01:46:37 INFO  com.selenium.maven.tests.homePageTest - After opening item from search list, new window opened successfully
+01:46:37 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test passed
+01:46:37 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test started
+01:46:37 INFO  com.selenium.maven.pages.homePage - Current tab which needs to be closed : Apple iPhone 15 Pro Max (1 TB) - White Titanium : Amazon.in: Electronics
+01:46:38 INFO  com.selenium.maven.pages.homePage - Closed tab
+01:46:38 INFO  com.selenium.maven.pages.homePage - Main tab : Amazon.in : mobiles
+01:46:38 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test passed
+01:46:38 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test started
+01:46:38 INFO  com.selenium.maven.pages.homePage - Language drop down is present
+01:46:38 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test failed
+01:46:39 INFO  com.selenium.maven.tests.homePageTest - Ending session
+01:46:39 INFO  com.selenium.maven.base.testngListners - onFinish

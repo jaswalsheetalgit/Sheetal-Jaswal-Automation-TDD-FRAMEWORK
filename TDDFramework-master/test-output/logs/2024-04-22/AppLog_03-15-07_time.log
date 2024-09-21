@@ -1,0 +1,14 @@
+03:15:14 INFO  com.selenium.maven.tests.homePageTest - Started session
+03:15:14 INFO  com.selenium.maven.base.testngListners - onStart
+03:15:14 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+03:15:14 INFO  com.selenium.maven.pages.homePage - Added Search string in search box
+03:15:15 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+03:15:20 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test failed
+03:15:20 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test started
+03:15:20 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test skipped
+03:15:20 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test started
+03:15:20 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test skipped
+03:15:20 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test started
+03:15:20 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test skipped
+03:15:20 INFO  com.selenium.maven.tests.homePageTest - Ending session
+03:15:21 INFO  com.selenium.maven.base.testngListners - onFinish

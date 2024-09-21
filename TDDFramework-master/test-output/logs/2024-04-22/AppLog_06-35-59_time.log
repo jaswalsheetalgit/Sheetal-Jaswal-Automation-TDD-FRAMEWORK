@@ -1,0 +1,29 @@
+06:36:05 INFO  com.selenium.maven.tests.homePageTest - Started session
+06:36:05 INFO  com.selenium.maven.base.testngListners - onStart
+06:36:06 INFO  com.selenium.maven.base.testngListners - verifySearchBar : Test started
+06:36:06 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+06:36:06 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test started
+06:36:06 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test started
+06:36:06 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test started
+06:36:06 INFO  com.selenium.maven.tests.homePageTest - Soft assert: numbers are not equal
+06:36:06 INFO  com.selenium.maven.tests.homePageTest - 2 3
+06:36:06 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test passed
+06:36:06 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test started
+06:36:06 INFO  com.selenium.maven.tests.homePageTest - Soft assert: numbers are not equal
+06:36:06 INFO  com.selenium.maven.tests.homePageTest - 5 5
+06:36:06 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test passed
+06:36:06 INFO  com.selenium.maven.tests.homePageTest - Verifying title
+06:36:06 INFO  com.selenium.maven.tests.homePageTest - Checking tesNG parameter functionality: hello world!
+06:36:06 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test passed
+06:36:06 INFO  com.selenium.maven.tests.homePageTest - Verifying search bar is present
+06:36:06 INFO  com.selenium.maven.base.testngListners - verifySearchBar : Test passed
+06:36:07 INFO  com.selenium.maven.pages.homePage - Added Search string in search box
+06:36:09 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+06:36:09 INFO  com.selenium.maven.tests.homePageTest - Verified search functionality
+06:36:09 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test passed
+06:36:09 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test started
+06:36:09 INFO  com.selenium.maven.pages.homePage - Language drop down is present
+06:36:09 INFO  com.selenium.maven.pages.homePage - Clicked on first item from search result
+06:38:17 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test started
+06:38:17 INFO  com.selenium.maven.tests.homePageTest - Ending session
+06:38:19 INFO  com.selenium.maven.base.testngListners - onFinish

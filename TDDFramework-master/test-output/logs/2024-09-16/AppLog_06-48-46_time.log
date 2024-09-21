@@ -1,0 +1,5 @@
+06:48:46 INFO  com.selenium.maven.base.testngListners - onStart
+06:48:51 INFO  com.selenium.maven.tests.TESTCASE1 - Started session
+06:48:51 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test failed
+06:48:51 INFO  com.selenium.maven.tests.TESTCASE1 - Ending session
+06:48:51 INFO  com.selenium.maven.base.testngListners - onFinish

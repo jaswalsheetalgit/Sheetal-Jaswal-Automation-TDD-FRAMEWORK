@@ -1,0 +1,7 @@
+09:52:24 INFO  com.selenium.maven.base.testngListners - onStart
+09:52:37 INFO  com.selenium.maven.tests.TESTCASE1 - Started session
+09:52:37 INFO  com.selenium.maven.base.testngListners - LoginApplication : Test started
+09:52:37 INFO  com.selenium.maven.pages.Login_SwagLabs - Login Page
+09:52:48 INFO  com.selenium.maven.base.testngListners - LoginApplication : Test failed
+09:52:48 INFO  com.selenium.maven.tests.TESTCASE1 - Ending session
+09:52:48 INFO  com.selenium.maven.base.testngListners - onFinish

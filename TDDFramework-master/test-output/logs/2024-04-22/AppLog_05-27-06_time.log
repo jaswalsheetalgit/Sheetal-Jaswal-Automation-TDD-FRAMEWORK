@@ -1,0 +1,10 @@
+05:27:15 INFO  com.selenium.maven.tests.homePageTest - Started session
+05:27:15 INFO  com.selenium.maven.base.testngListners - onStart
+05:27:16 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test started
+05:27:16 INFO  com.selenium.maven.pages.homePage - Language drop down is present
+05:27:16 INFO  com.selenium.maven.pages.homePage - Mouse hovered on language drop-down
+05:27:17 INFO  com.selenium.maven.pages.homePage - Selected language randomly from language drop-down to : EN
+05:27:17 INFO  com.selenium.maven.tests.homePageTest - Language of amazon changed successfully
+05:27:17 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test passed
+05:27:17 INFO  com.selenium.maven.tests.homePageTest - Ending session
+05:27:18 INFO  com.selenium.maven.base.testngListners - onFinish

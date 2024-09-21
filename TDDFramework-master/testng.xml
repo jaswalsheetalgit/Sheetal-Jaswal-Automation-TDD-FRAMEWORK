@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="tests">
+	<listeners>  
+<listener class-name="com.selenium.maven.base.testngListners"/>  
+</listeners>  
+	<test name="Practice">
+		<parameter name="first" value="hello" />
+		<parameter name="second" value="world!" />
+		<classes>
+			
+			<class name="com.selenium.maven.tests.TESTCASE1" />
+		</classes>
+	</test>
+</suite>

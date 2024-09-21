@@ -1,0 +1,10 @@
+07:22:04 INFO  com.selenium.maven.base.testngListners - onStart
+07:22:05 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+07:22:05 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test skipped
+07:22:05 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test started
+07:22:05 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test skipped
+07:22:05 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test started
+07:22:05 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test skipped
+07:22:05 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test started
+07:22:05 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test skipped
+07:22:06 INFO  com.selenium.maven.base.testngListners - onFinish

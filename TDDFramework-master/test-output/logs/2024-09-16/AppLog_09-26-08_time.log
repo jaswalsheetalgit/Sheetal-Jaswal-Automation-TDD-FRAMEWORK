@@ -1,0 +1,8 @@
+09:26:09 INFO  com.selenium.maven.base.testngListners - onStart
+09:26:16 INFO  com.selenium.maven.tests.TESTCASE1 - Started session
+09:26:16 INFO  com.selenium.maven.base.testngListners - LoginApplication : Test started
+09:26:16 INFO  com.selenium.maven.pages.homePage - Enter the username
+09:26:16 INFO  com.selenium.maven.pages.homePage - Enter the Password
+09:26:32 INFO  com.selenium.maven.base.testngListners - LoginApplication : Test passed
+09:26:32 INFO  com.selenium.maven.tests.TESTCASE1 - Ending session
+09:26:33 INFO  com.selenium.maven.base.testngListners - onFinish

@@ -1,0 +1,36 @@
+05:27:51 INFO  com.selenium.maven.tests.homePageTest - Started session
+05:27:51 INFO  com.selenium.maven.base.testngListners - onStart
+05:27:51 INFO  com.selenium.maven.base.testngListners - verifySearchBar : Test started
+05:27:51 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+05:27:51 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test started
+05:27:51 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test started
+05:27:51 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test started
+05:27:51 INFO  com.selenium.maven.tests.homePageTest - Soft assert: numbers are not equal
+05:27:51 INFO  com.selenium.maven.tests.homePageTest - 2 3
+05:27:51 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test passed
+05:27:51 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test started
+05:27:51 INFO  com.selenium.maven.tests.homePageTest - Soft assert: numbers are not equal
+05:27:51 INFO  com.selenium.maven.tests.homePageTest - 5 5
+05:27:51 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test passed
+05:27:52 INFO  com.selenium.maven.tests.homePageTest - Verifying title
+05:27:52 INFO  com.selenium.maven.tests.homePageTest - Checking tesNG parameter functionality: hello world!
+05:27:52 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test passed
+05:27:52 INFO  com.selenium.maven.tests.homePageTest - Verifying search bar is present
+05:27:52 INFO  com.selenium.maven.base.testngListners - verifySearchBar : Test passed
+05:27:52 INFO  com.selenium.maven.pages.homePage - Language drop down is present
+05:27:52 INFO  com.selenium.maven.pages.homePage - Added Search string in search box
+05:27:55 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+05:27:55 INFO  com.selenium.maven.tests.homePageTest - Verified search functionality
+05:27:55 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test passed
+05:27:55 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test started
+05:27:55 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test failed
+05:27:55 INFO  com.selenium.maven.pages.homePage - Clicked on first item from search result
+05:28:01 INFO  com.selenium.maven.tests.homePageTest - After opening item from search list, new window opened successfully
+05:28:01 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test passed
+05:28:01 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test started
+05:28:01 INFO  com.selenium.maven.pages.homePage - Current tab which needs to be closed : Apple iPhone 13 (128GB) - Midnight : Amazon.in: Electronics
+05:28:01 INFO  com.selenium.maven.pages.homePage - Closed tab
+05:28:01 INFO  com.selenium.maven.pages.homePage - Main tab : Amazon.in : mobiles
+05:28:01 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test passed
+05:28:01 INFO  com.selenium.maven.tests.homePageTest - Ending session
+05:28:03 INFO  com.selenium.maven.base.testngListners - onFinish

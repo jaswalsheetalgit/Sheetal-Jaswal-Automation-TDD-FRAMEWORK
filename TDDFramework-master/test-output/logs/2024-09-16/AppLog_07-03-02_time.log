@@ -1,0 +1,8 @@
+07:03:02 INFO  com.selenium.maven.base.testngListners - onStart
+07:03:19 INFO  com.selenium.maven.tests.TESTCASE1 - Started session
+07:03:19 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test started
+07:03:19 INFO  com.selenium.maven.pages.homePage - sheetal Added Search string in search box
+07:03:22 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+07:03:22 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test failed
+07:03:22 INFO  com.selenium.maven.tests.TESTCASE1 - Ending session
+07:03:23 INFO  com.selenium.maven.base.testngListners - onFinish

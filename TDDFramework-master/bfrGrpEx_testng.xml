@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="1">
+<listeners>
+<listener class-name = "com.selenium.maven.base.testngListners"/>
+</listeners>
+
+
+  <test name="Practice">
+ 
+  <groups>
+       <run>
+       <include name = "grp1" />
+       </run>
+       </groups>
+    <classes>
+    
+       <class name="com.selenium.maven.tests.testAnnotationSeqEx"/>
+       
+       
+    </classes>
+  </test>
+
+</suite>

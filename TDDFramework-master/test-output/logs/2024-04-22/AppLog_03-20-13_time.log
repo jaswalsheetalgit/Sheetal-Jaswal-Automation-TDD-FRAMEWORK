@@ -1,0 +1,9 @@
+03:20:21 INFO  com.selenium.maven.tests.homePageTest - Started session
+03:20:21 INFO  com.selenium.maven.base.testngListners - onStart
+03:20:21 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+03:20:21 INFO  com.selenium.maven.pages.homePage - Added Search string in search box
+03:20:24 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+03:20:24 INFO  com.selenium.maven.tests.homePageTest - Verified search functionality
+03:20:24 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test passed
+03:20:24 INFO  com.selenium.maven.tests.homePageTest - Ending session
+03:20:25 INFO  com.selenium.maven.base.testngListners - onFinish

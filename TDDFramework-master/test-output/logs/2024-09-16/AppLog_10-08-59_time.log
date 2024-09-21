@@ -1,0 +1,4 @@
+10:08:59 INFO  com.selenium.maven.base.testngListners - onStart
+10:09:01 INFO  com.selenium.maven.base.testngListners - LoginApplication : Test started
+10:09:01 INFO  com.selenium.maven.base.testngListners - LoginApplication : Test skipped
+10:09:01 INFO  com.selenium.maven.base.testngListners - onFinish

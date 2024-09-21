@@ -1,0 +1,18 @@
+04:32:35 INFO  com.selenium.maven.tests.homePageTest - Started session
+04:32:35 INFO  com.selenium.maven.base.testngListners - onStart
+04:32:36 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+04:32:36 INFO  com.selenium.maven.pages.homePage - Added Search string in search box
+04:32:38 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+04:32:38 INFO  com.selenium.maven.tests.homePageTest - Verified search functionality
+04:32:38 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test passed
+04:32:38 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test started
+04:32:38 INFO  com.selenium.maven.pages.homePage - Clicked on first item from search result
+04:32:43 INFO  com.selenium.maven.tests.homePageTest - After opening item from search list, new window opened successfully
+04:32:43 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test passed
+04:32:43 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test started
+04:32:43 INFO  com.selenium.maven.pages.homePage - Current tab which needs to be closed : Apple iPhone 14 (256 GB) - Midnight : Amazon.in: Electronics
+04:32:43 INFO  com.selenium.maven.pages.homePage - Closed tab
+04:32:43 INFO  com.selenium.maven.pages.homePage - Main tab : Amazon.in : mobiles
+04:32:43 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test passed
+04:32:44 INFO  com.selenium.maven.tests.homePageTest - Ending session
+04:32:44 INFO  com.selenium.maven.base.testngListners - onFinish

@@ -1,0 +1,24 @@
+03:35:29 INFO  com.selenium.maven.tests.homePageTest - Started session
+03:35:29 INFO  com.selenium.maven.base.testngListners - onStart
+03:35:29 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test started
+03:35:29 INFO  com.selenium.maven.tests.homePageTest - Soft assert: numbers are not equal
+03:35:29 INFO  com.selenium.maven.tests.homePageTest - 2 3
+03:35:29 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test passed
+03:35:29 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test started
+03:35:29 INFO  com.selenium.maven.tests.homePageTest - Soft assert: numbers are not equal
+03:35:29 INFO  com.selenium.maven.tests.homePageTest - 5 5
+03:35:29 INFO  com.selenium.maven.base.testngListners - printDataProviderData : Test passed
+03:35:30 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test failed
+03:35:30 INFO  com.selenium.maven.base.testngListners - verifySearchBar : Test started
+03:35:30 INFO  com.selenium.maven.tests.homePageTest - Verifying search bar is present
+03:35:30 INFO  com.selenium.maven.base.testngListners - verifySearchBar : Test passed
+03:35:30 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+03:35:31 INFO  com.selenium.maven.pages.homePage - Added Search string in searcch box
+03:35:33 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+03:35:33 INFO  com.selenium.maven.tests.homePageTest - Verified search functionality
+03:35:33 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test passed
+03:35:33 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test started
+03:35:34 INFO  com.selenium.maven.pages.homePage - Clicked on first item from search result
+03:35:34 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test passed
+03:35:34 INFO  com.selenium.maven.tests.homePageTest - Ending session
+03:35:35 INFO  com.selenium.maven.base.testngListners - onFinish

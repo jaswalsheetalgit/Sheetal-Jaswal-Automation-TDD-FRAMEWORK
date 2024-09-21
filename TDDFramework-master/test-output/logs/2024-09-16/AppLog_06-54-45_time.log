@@ -1,0 +1,24 @@
+06:54:45 INFO  com.selenium.maven.base.testngListners - onStart
+06:54:53 INFO  com.selenium.maven.tests.TESTCASE1 - Started session
+06:54:53 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test started
+06:54:53 INFO  com.selenium.maven.pages.homePage - sheetal Added Search string in search box
+06:54:56 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+06:54:56 INFO  com.selenium.maven.tests.TESTCASE1 - Started session
+06:54:56 INFO  com.selenium.maven.pages.homePage - sheetal Added Search string in search box
+06:54:57 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+06:54:57 INFO  com.selenium.maven.tests.TESTCASE1 - Started session
+06:54:57 INFO  com.selenium.maven.pages.homePage - sheetal Added Search string in search box
+06:55:00 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+06:55:00 INFO  com.selenium.maven.tests.TESTCASE1 - Started session
+06:55:00 INFO  com.selenium.maven.pages.homePage - sheetal Added Search string in search box
+06:55:02 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+06:55:02 INFO  com.selenium.maven.tests.TESTCASE1 - Started session
+06:55:02 INFO  com.selenium.maven.pages.homePage - sheetal Added Search string in search box
+06:55:04 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+06:55:04 INFO  com.selenium.maven.pages.homePage - sheetal Added Search string in search box
+06:55:07 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+06:55:07 INFO  com.selenium.maven.pages.homePage - sheetal Added Search string in search box
+06:55:09 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+06:55:09 INFO  com.selenium.maven.base.testngListners - verifyTitle : Test passed
+06:55:09 INFO  com.selenium.maven.tests.TESTCASE1 - Ending session
+06:55:10 INFO  com.selenium.maven.base.testngListners - onFinish

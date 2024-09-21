@@ -1,0 +1,22 @@
+05:04:15 INFO  com.selenium.maven.tests.homePageTest - Started session
+05:04:15 INFO  com.selenium.maven.base.testngListners - onStart
+05:04:16 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+05:04:16 INFO  com.selenium.maven.pages.homePage - Added Search string in search box
+05:04:19 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+05:04:19 INFO  com.selenium.maven.tests.homePageTest - Verified search functionality
+05:04:19 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test passed
+05:04:19 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test started
+05:04:19 INFO  com.selenium.maven.pages.homePage - Clicked on first item from search result
+05:04:27 INFO  com.selenium.maven.tests.homePageTest - After opening item from search list, new window opened successfully
+05:04:27 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test passed
+05:04:27 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test started
+05:04:27 INFO  com.selenium.maven.pages.homePage - Current tab which needs to be closed : Apple iPhone 13 (128GB) - Midnight : Amazon.in: Electronics
+05:04:28 INFO  com.selenium.maven.pages.homePage - Closed tab
+05:04:28 INFO  com.selenium.maven.pages.homePage - Main tab : Amazon.in : mobiles
+05:04:28 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test passed
+05:04:28 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test started
+05:04:28 INFO  com.selenium.maven.pages.homePage - Language drop down is present
+05:04:28 INFO  com.selenium.maven.pages.homePage - Mouse hovered on language drop-down
+05:04:32 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test failed
+05:04:33 INFO  com.selenium.maven.tests.homePageTest - Ending session
+05:04:34 INFO  com.selenium.maven.base.testngListners - onFinish

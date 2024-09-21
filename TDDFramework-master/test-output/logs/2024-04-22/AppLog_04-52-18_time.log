@@ -1,0 +1,24 @@
+04:52:29 INFO  com.selenium.maven.tests.homePageTest - Started session
+04:52:29 INFO  com.selenium.maven.base.testngListners - onStart
+04:52:29 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test started
+04:52:29 INFO  com.selenium.maven.pages.homePage - Added Search string in search box
+04:52:32 INFO  com.selenium.maven.pages.homePage - Clicked on search icon
+04:52:32 INFO  com.selenium.maven.tests.homePageTest - Verified search functionality
+04:52:32 INFO  com.selenium.maven.base.testngListners - verifySearchFunc : Test passed
+04:52:32 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test started
+04:52:33 INFO  com.selenium.maven.pages.homePage - Clicked on first item from search result
+04:52:42 INFO  com.selenium.maven.tests.homePageTest - After opening item from search list, new window opened successfully
+04:52:42 INFO  com.selenium.maven.base.testngListners - verifySearchResult : Test passed
+04:52:42 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test started
+04:52:42 INFO  com.selenium.maven.pages.homePage - Current tab which needs to be closed : Apple iPhone 13 (128GB) - Midnight : Amazon.in: Electronics
+04:52:42 INFO  com.selenium.maven.pages.homePage - Closed tab
+04:52:42 INFO  com.selenium.maven.pages.homePage - Main tab : Amazon.in : mobiles
+04:52:42 INFO  com.selenium.maven.base.testngListners - closeOpenedSearchItemTab : Test passed
+04:52:42 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test started
+04:52:42 INFO  com.selenium.maven.pages.homePage - Language drop down is present
+04:52:42 INFO  com.selenium.maven.pages.homePage - Mouse hovered on language drop-down
+04:52:43 INFO  com.selenium.maven.pages.homePage - Selected language randomly from language drop-down
+04:52:47 INFO  com.selenium.maven.tests.homePageTest - Language panel displayed on mouse hover action
+04:52:47 INFO  com.selenium.maven.base.testngListners - changeLanguage : Test passed
+04:52:47 INFO  com.selenium.maven.tests.homePageTest - Ending session
+04:52:49 INFO  com.selenium.maven.base.testngListners - onFinish
