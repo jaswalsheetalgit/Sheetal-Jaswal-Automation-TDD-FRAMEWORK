@@ -14,6 +14,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.selenium.maven.base.CommonFunctions;
 import com.selenium.maven.base.ExcelUtils;
 import com.selenium.maven.pages.Homepages;
 import com.selenium.maven.pages.Login_SwagLabs;
@@ -25,6 +26,7 @@ public class TESTCASE1 extends homePage{
 	ExcelUtils excelUtils;
 	Login_SwagLabs login = new Login_SwagLabs();
 	Homepages homepage = new Homepages();
+	
 	public static Logger logger = LogManager.getLogger(TESTCASE1.class);
 	
 	@BeforeTest
@@ -33,17 +35,32 @@ public class TESTCASE1 extends homePage{
 		logger.info("Started session");	
 		excelUtils = new ExcelUtils("E:\\Github\\com.selenium.maven2\\src\\test\\resources\\TestDatasheet.xlsx", "Sheet1");
 	}
+	
+	@Test(priority=0,groups="Regression",description="End to End Add to cart product")
+	public void Addtocartproduct() throws IOException, InterruptedException {
+		logger.info("Logins Method");
+		String userName = excelUtils.getCellData("TESTCASE 1", "UsernName");
+		String password = excelUtils.getCellData("TESTCASE 1", "Password");
+		login.Logins(userName, password);
+		
+		logger.info("AddItem Method");
+		String Item = excelUtils.getCellData("TESTCASE 1", "Item");		
+	    homepage.AddItem(Item);
+	    
+	    logger.info("checkout Method");
+	    homepage.checkout();
+	    
+	    logger.info("Paymentpage Method");
+	    String FirstName = excelUtils.getCellData("TESTCASE 1", "FirstName");
+		String LastName = excelUtils.getCellData("TESTCASE 1", "LastName");
+		String PostalCode = excelUtils.getCellData("TESTCASE 1", "PostalCode");
+	    homepage.Paymentpage(FirstName,LastName,PostalCode);
+	    
+	    logger.info("verifyProduct Method");
+	    homepage.verifyProduct(Item);
 
-	@Test(priority=0,groups="Regression",description="Verify home page title.")
-	public void LoginApplication() throws IOException, InterruptedException {
-	    String url = excelUtils.getCellData("TESTCASE 1", "url");  // Row name "Test1", read value from 2nd column
-	    System.out.println(url);
-//		login.Logins("standard_user", "secret_sauce");	
-//		homepage.AddItem();
 	}
-	
-	
-	
+
 	@AfterTest
 	public void endSession() {
 		login.closeSession();
