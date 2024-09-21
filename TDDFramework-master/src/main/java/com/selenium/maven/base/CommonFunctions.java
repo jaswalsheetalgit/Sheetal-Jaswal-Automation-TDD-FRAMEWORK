@@ -197,18 +197,18 @@ catch (Exception e) {
 }
     
     
-    public static void highlightElement(WebDriver driver, By locator,String descriptiuon) {
-    	try
-    	{
+    public static void highlightElement(WebDriver driver, WebElement elementToHighlight,String descriptiuon) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].style.border = '2px solid red';", locator);
-    	}
-    	catch (Exception e) {
-    		obj.takeScreenshot(driver,locator,descriptiuon+" Element Not Found");
-    		 System.out.println(descriptiuon+" Element Not Found");
-    		 Assert.assertEquals("Element Not Found",locator+" Element Not Found");
-    		// TODO: handle exception
-    	}
+        String originalStyle = elementToHighlight.getAttribute("style");
+        js.executeScript("arguments[0].setAttribute('style', arguments[1]);", 
+                elementToHighlight, "border: 2px solid red; background-color: yellow;");   
+        try {
+            Thread.sleep(500);  // Optional: highlight duration
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        js.executeScript("arguments[0].setAttribute('style', arguments[1]);", 
+                elementToHighlight, originalStyle);
     }
 
 
