@@ -32,6 +32,7 @@ public class Homepages extends base{
     public void AddItem() throws InterruptedException 
     {
     	logger.info("Add to cart method name AddItem");
+    	CommonFunctions.highlightElement(driver, driver.findElement(Addtocart), "Click Add to cart");
     	CommonFunctions.clickElement(driver, Addtocart, "Click Add to cart");
     	CommonFunctions.clickElement(driver, basket, "Click on Basket");
     	CommonFunctions.clickElement(driver, checkoOut, "Click on checkout");
