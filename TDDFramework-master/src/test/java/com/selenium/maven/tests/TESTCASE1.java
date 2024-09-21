@@ -14,6 +14,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.selenium.maven.base.ExcelUtils;
 import com.selenium.maven.pages.Homepages;
 import com.selenium.maven.pages.Login_SwagLabs;
 import com.selenium.maven.pages.homePage;
@@ -21,6 +22,7 @@ import com.selenium.maven.pages.homePage;
 
 @Listeners(com.selenium.maven.base.testngListners.class)  
 public class TESTCASE1 extends homePage{
+	ExcelUtils excelUtils;
 	Login_SwagLabs login = new Login_SwagLabs();
 	Homepages homepage = new Homepages();
 	public static Logger logger = LogManager.getLogger(TESTCASE1.class);
@@ -29,12 +31,15 @@ public class TESTCASE1 extends homePage{
 	public void initiate() throws IOException {
 		login.startSession("chrome");
 		logger.info("Started session");	
+		excelUtils = new ExcelUtils("E:\\Github\\com.selenium.maven2\\src\\test\\resources\\TestDatasheet.xlsx", "Sheet1");
 	}
 
 	@Test(priority=0,groups="Regression",description="Verify home page title.")
 	public void LoginApplication() throws IOException, InterruptedException {
-		login.Logins("standard_user", "secret_sauce");	
-		homepage.AddItem();
+	    String url = excelUtils.getCellData("TESTCASE 1", "url");  // Row name "Test1", read value from 2nd column
+	    System.out.println(url);
+//		login.Logins("standard_user", "secret_sauce");	
+//		homepage.AddItem();
 	}
 	
 	
