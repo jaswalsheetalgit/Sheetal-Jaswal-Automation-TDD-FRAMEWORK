@@ -1,5 +1,7 @@
 package com.selenium.maven.base;
 
+import java.io.IOException;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -16,9 +18,16 @@ import com.selenium.maven.pages.Login_SwagLabs;
 import com.selenium.maven.pages.homePage;
 import com.selenium.maven.base.base;
 @Listeners(com.selenium.maven.base.testngListners.class)
-public class CommonFunctions {
+public class CommonFunctions extends testngListners {
 	static base obj = new base();
 public static Logger logger = LogManager.getLogger(Login_SwagLabs.class);
+
+public void initiate() throws IOException {
+    testngListners.logToBoth("Starting session...", com.aventstack.extentreports.Status.INFO);
+      testngListners.logToBoth("Session started with ChromeDriver.", com.aventstack.extentreports.Status.INFO);
+
+     testngListners.logToBoth("ExcelUtils initialized.", com.aventstack.extentreports.Status.INFO);
+ }
 
 
 	public static void sendKeysToElement(WebDriver driver, By locator, String text,String descriptiuon) {
@@ -28,6 +37,7 @@ public static Logger logger = LogManager.getLogger(Login_SwagLabs.class);
 			element.clear();
 			element.sendKeys(text);
 			System.out.println(descriptiuon);
+			testngListners.logToBoth("Retrieved username and password from clcik.", com.aventstack.extentreports.Status.PASS);
 		} catch (Exception e) {
 			 obj.takeScreenshot(driver,locator,descriptiuon+" Element Not Found");
 			 System.out.println(descriptiuon+" Element Not Found");
@@ -46,6 +56,7 @@ public static Logger logger = LogManager.getLogger(Login_SwagLabs.class);
 			 System.out.println(descriptiuon+" Element Not Click");
 			 Assert.assertEquals("Element Click",locator+" Element Not Click");
 		} catch (Exception e) {
+			testngListners.logToBoth("Retrieved username and password from clcik.", com.aventstack.extentreports.Status.FAIL);
 			System.out.println("An error occurred while clicking the element: " + e.getMessage());
 		}
 	}
@@ -188,6 +199,7 @@ public static Logger logger = LogManager.getLogger(Login_SwagLabs.class);
         actions.click(element).perform();  
     	}
 catch (Exception e) {
+	testngListners.logToBoth("Retrieved username and password from clcik.", com.aventstack.extentreports.Status.FAIL);
 	obj.takeScreenshot(driver,locator,descriptiuon+" Element Not Found");
 	 System.out.println(descriptiuon+" Element Not Found");
 	 Assert.assertEquals("Element Not Found",locator+" Element Not Found");
